@@ -34,6 +34,30 @@ const Index = () => {
           </p>
         </header>
 
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+          <div className="relative group overflow-hidden rounded-3xl shadow-xl animate-fade-in" style={{ animationDelay: '0.05s' }}>
+            <img 
+              src="https://cdn.poehali.dev/projects/7c9f8490-8c13-4d68-8a17-628382e9d6bb/files/c581876d-6b6d-4944-8e08-e80075439e01.jpg"
+              alt="Dancing monkey"
+              className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+              <p className="text-white font-heading text-2xl">Танцуем до упада! 🕺</p>
+            </div>
+          </div>
+          
+          <div className="relative group overflow-hidden rounded-3xl shadow-xl animate-fade-in" style={{ animationDelay: '0.1s' }}>
+            <img 
+              src="https://cdn.poehali.dev/projects/7c9f8490-8c13-4d68-8a17-628382e9d6bb/files/04ed42c6-e881-4e39-bea1-8921006a493b.jpg"
+              alt="Monkey with cake"
+              className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-secondary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+              <p className="text-white font-heading text-2xl">Тортик ждёт! 🎂</p>
+            </div>
+          </div>
+        </div>
+
         <div className="grid gap-8 mb-8">
           <Card className="p-8 bg-card/95 backdrop-blur-sm shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] animate-fade-in">
             <div className="flex items-center gap-4 mb-6">
