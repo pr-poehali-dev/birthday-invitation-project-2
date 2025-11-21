@@ -98,59 +98,6 @@ const Index = () => {
 
           <Card className="p-8 bg-card/95 backdrop-blur-sm shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] animate-fade-in" style={{ animationDelay: '0.1s' }}>
             <div className="flex items-center gap-4 mb-6">
-              <div className="bg-secondary/20 p-4 rounded-full">
-                <Icon name="List" size={32} className="text-secondary-foreground" />
-              </div>
-              <h2 className="text-4xl font-heading font-bold text-foreground">
-                Программа праздника
-              </h2>
-            </div>
-            
-            <div className="space-y-6">
-              <div className="flex gap-4 items-start group">
-                <div className="bg-gradient-to-br from-primary to-primary/70 text-primary-foreground rounded-full w-12 h-12 flex items-center justify-center font-bold text-lg flex-shrink-0 group-hover:scale-110 transition-transform">
-                  1
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-foreground mb-1">Сбор гостей</h3>
-                  <p className="text-muted-foreground">Приходите не стесняясь, обнимашки обязательны! 🤗</p>
-                </div>
-              </div>
-              
-              <div className="flex gap-4 items-start group">
-                <div className="bg-gradient-to-br from-secondary to-secondary/70 text-secondary-foreground rounded-full w-12 h-12 flex items-center justify-center font-bold text-lg flex-shrink-0 group-hover:scale-110 transition-transform">
-                  2
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-foreground mb-1">Праздничный стол</h3>
-                  <p className="text-muted-foreground">Вкусняшки, торт и всё что душе угодно 🍰🥳</p>
-                </div>
-              </div>
-              
-              <div className="flex gap-4 items-start group">
-                <div className="bg-gradient-to-br from-accent to-accent/70 text-accent-foreground rounded-full w-12 h-12 flex items-center justify-center font-bold text-lg flex-shrink-0 group-hover:scale-110 transition-transform">
-                  3
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-foreground mb-1">Веселье и игры</h3>
-                  <p className="text-muted-foreground">Танцы, смех и незабываемые моменты 💃🎵</p>
-                </div>
-              </div>
-              
-              <div className="flex gap-4 items-start group">
-                <div className="bg-gradient-to-br from-primary/80 to-primary/50 text-primary-foreground rounded-full w-12 h-12 flex items-center justify-center font-bold text-lg flex-shrink-0 group-hover:scale-110 transition-transform">
-                  4
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-foreground mb-1">Фотосессия</h3>
-                  <p className="text-muted-foreground">Запечатлеем все эмоции на память 📸✨</p>
-                </div>
-              </div>
-            </div>
-          </Card>
-
-          <Card className="p-8 bg-card/95 backdrop-blur-sm shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            <div className="flex items-center gap-4 mb-6">
               <div className="bg-accent/20 p-4 rounded-full">
                 <Icon name="Navigation" size={32} className="text-accent-foreground" />
               </div>
